@@ -7,7 +7,6 @@
 
 .jumbotron{background-image: url(../imagenes/bobobo3.jpg);
             background-size: cover;
-            background-position: right;
             height: 80vh;
             margin-bottom: 0%;}
 
@@ -15,4 +14,4 @@
             }
 .card{display: inline-block;
             }
-            
+
