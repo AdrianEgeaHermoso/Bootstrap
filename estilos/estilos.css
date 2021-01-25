@@ -1,7 +1,17 @@
 /********** ESTILOS PARA LA WEB PERSONALIZADOS*****/
 
-.bg-violet{background-color: violet;}
 
-.jumbotron{background-image: url(../imagenes/goku.jpg);}
+.bg-violet{background-image: url(../imagenes/fondo2.jpg);
+            background-size: auto;
+            }
 
-.display-4{text-align: center;}
+.jumbotron{background-image: url(../imagenes/bobobo3.jpg);
+            background-size: cover;
+            background-position: right;
+            height: 80vh;
+            margin-bottom: 0%;}
+
+.display-4{text-align: center;
+            }
+
+            
