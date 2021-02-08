@@ -1,17 +1,18 @@
 /********** ESTILOS PARA LA WEB PERSONALIZADOS*****/
 
-
 .bg-violet{background-image: url(../imagenes/fondo2.jpg);
             background-size: auto;
             }
+.titulo{text-align: center;
+        background-color: #1391e0cc;}
 
 .jumbotron{background-image: url(../imagenes/bobobo3.jpg);
             background-size: cover;
             height: 80vh;
-            margin-bottom: 0%;}
+            background-position: center;
+            margin-bottom: 0%;
+            margin-top: 0%;}
 
-.display-4{text-align: center;
-            }
-.card{display: inline-block;
-            }
+.bg-opacity-dark{background-color: #77cbff83;
+                    color: black;}
 
