@@ -1,11 +1,34 @@
 /********** ESTILOS PARA LA WEB PERSONALIZADOS*****/
 
-.bg-violet{background-image: url(../imagenes/fondo2.jpg);
-            background-size: auto;
-            }
-.titulo{text-align: center;
-        background-color: #1391e0cc;}
+/******* FONTS*******/
+@font-face {font-family: chinese;
+        src: url(../fuentes/chinese.ttf);}
 
+        @font-face {font-family: bonita;
+                src: url(../fuentes/bonita.ttf);}
+        
+/******* ESTILO DISPLAY MUSICA DE FONDO********/
+#musiquita{position: relative;
+        }
+
+/******* ESTILO NAVBAR******/
+
+
+/******* ESTILO PARA EL FONDO DE TODA LA PAGINA*******/
+.bg-violet{background-image: url(../imagenes/fondo2.jpg);
+            background-size: auto;}
+
+/******* COLOR DE FONDO DEL WRAPPER O CONTENEDOR*****/
+#wrapper{background-color:#1391e0cc;
+        font-family:bonita;}
+
+/******* ESTILO CLASE TITULO PARA TODOS LOS TITULOS DE SECCIONES******/
+.titulo{text-align: center;
+        background-color: #1391e0cc;
+        color:yellow;
+        font-family:chinese;}
+
+/******* ESTILO HERO SECTION JUMBOTRON*******/
 .jumbotron{background-image: url(../imagenes/bobobo3.jpg);
             background-size: cover;
             height: 80vh;
@@ -13,9 +36,16 @@
             margin-bottom: 0%;
             margin-top: 0%;}
 
-.bg-opacity-dark{background-color: #77cbff83;
-                    color: black;}
+/********ESTILO PARA EL TEXTO Y CONTENIDO DE LA GALERIA DE FOTOS*******/
+.bg-opacity-dark{background-color: rgba(255, 255, 0, 0.767);
+                color:#1391e0cc;}
 
-#contacto{background-color:  #77cbff83;}
-#intro{background-color:  #77cbff83;}
 
+
+/****ESTILO TEXTO CARDS*****/
+.card-title{text-align: center;
+                color:#1391e0cc;}
+
+.card-body{background-color: rgba(255, 255, 0, 0.829);}
+
+.col-sm{background-color: rgba(255, 255, 0, 0.829);}
