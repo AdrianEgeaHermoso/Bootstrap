@@ -11,12 +11,10 @@
 #musiquita{position: relative;
         }
 
-/******* ESTILO NAVBAR******/
-
 
 /******* ESTILO PARA EL FONDO DE TODA LA PAGINA*******/
 .bg-violet{background-image: url(../imagenes/fondo2.jpg);
-            background-size: auto;}
+        background-size: auto;}
 
 /******* COLOR DE FONDO DEL WRAPPER O CONTENEDOR*****/
 #wrapper{background-color:#1391e0cc;
@@ -30,11 +28,11 @@
 
 /******* ESTILO HERO SECTION JUMBOTRON*******/
 .jumbotron{background-image: url(../imagenes/bobobo3.jpg);
-            background-size: cover;
-            height: 80vh;
-            background-position: center;
-            margin-bottom: 0%;
-            margin-top: 0%;}
+        background-size: cover;
+        height: 80vh;
+        background-position: center;
+        margin-bottom: 0%;
+        margin-top: 0%;}
 
 /********ESTILO PARA EL TEXTO Y CONTENIDO DE LA GALERIA DE FOTOS*******/
 .bg-opacity-dark{background-color: rgba(255, 255, 0, 0.767);
